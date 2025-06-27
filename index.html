@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rastreamento de Encomenda</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="rastreio.png" alt="Interface de rastreio" class="imagem-fundo" />
+    <form onsubmit="return abrirPopup();">
+      <input type="text" id="codigo" placeholder="Digite o código de rastreio" required />
+      <button type="submit">RASTREAR</button>
+    </form>
+    <p id="mensagem"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
